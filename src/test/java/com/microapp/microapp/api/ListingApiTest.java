@@ -37,7 +37,7 @@ public class ListingApiTest {
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/listings/";
+    private final  String urlAllItem = "/api/listings/?page=0&pageSize=10";
 
     private final  String urlOneItem = "/api/listings/4";
 

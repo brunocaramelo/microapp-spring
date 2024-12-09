@@ -41,7 +41,7 @@ public class UserApiTest {
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/users/";
+    private final  String urlAllItem = "/api/users/?page=0&pageSize=10";
 
     private final  String urlOneItem = "/api/users/4";
 

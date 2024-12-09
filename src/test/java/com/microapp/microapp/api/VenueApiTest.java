@@ -3,9 +3,9 @@ package com.microapp.microapp.api;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.microapp.microapp.controllers.CategoryController;
-import com.microapp.microapp.controllers.EventController;
+import com.microapp.microapp.controllers.VenueController;
 import com.microapp.microapp.services.CategoryService;
-import com.microapp.microapp.services.EventService;
+import com.microapp.microapp.services.VenueService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -27,26 +27,26 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @SpringBootTest
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
-public class EventApiTest {
+public class VenueApiTest {
 
 
     @Autowired
-    private EventService localService;
+    private VenueService localService;
     @Autowired
-    private EventController localController;
+    private VenueController localController;
 
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/events/?page=0&pageSize=10";
+    private final  String urlAllItem = "/api/venues/?page=0&pageSize=10";
 
-    private final  String urlOneItem = "/api/events/4";
+    private final  String urlOneItem = "/api/venues/4";
 
-    private final  String fielToAnalize = "eventName";
+    private final  String fielToAnalize = "venueName";
 
-    private final  String valueToAnalizeList = "Gotterdammerung";
+    private final  String valueToAnalizeList = "Toyota Park";
 
-    private final  String valueToAnalizeOne = "La Cenerentola (Cinderella)";
+    private final  String valueToAnalizeOne = "CommunityAmerica Ballpark";
 
 
     @BeforeEach

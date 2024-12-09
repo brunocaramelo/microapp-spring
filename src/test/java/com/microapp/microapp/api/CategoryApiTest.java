@@ -38,7 +38,7 @@ public class CategoryApiTest {
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/categories/";
+    private final  String urlAllItem = "/api/categories/?page=0&pageSize=10";
 
     private final  String urlOneItem = "/api/categories/4";
 

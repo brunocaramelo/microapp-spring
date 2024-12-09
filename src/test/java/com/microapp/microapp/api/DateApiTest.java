@@ -41,7 +41,7 @@ public class DateApiTest {
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/dates/";
+    private final  String urlAllItem = "/api/dates/?page=0&pageSize=10";
 
     private final  String urlOneItem = "/api/dates/1830";
 

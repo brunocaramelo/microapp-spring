@@ -38,7 +38,7 @@ public class SalesApiTest {
     private MockMvc mockMvc;
 
 
-    private final  String urlAllItem = "/api/sales/";
+    private final  String urlAllItem = "/api/sales/?page=0&pageSize=10";
 
     private final  String urlOneItem = "/api/sales/4";
 
