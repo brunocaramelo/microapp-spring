@@ -23,23 +23,36 @@ spring:
     enabled: true
     ignore-missing-migrations: true
     out-of-order: true
-
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 200MB
 ---
 
 spring:
   config:
     activate:
       on-profile: test
-  cache:
-    type: none
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:test;DATABASE_TO_UPPER=false;MODE=MySQL;
+    url: ${SECRET_TEST_DATABASE_URL:jdbc:mysql://localhost}:${SECRET_TEST_DB_PORT:3306}/${SECRET_TEST_DB_NAME:microapp}?useTimezone=true&serverTimezone=UTC&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    database-platform: org.hibernate.dialect.MySQLDialect
+    username: ${SECRET_TEST_DB_USERNAME:root}
+    password: ${SECRET_TEST_DB_PASSWORD:root}
   jpa:
-    generate-ddl: true
-    show-sql: true
-    hibernate:
-      ddl-auto: create-drop
-      dialect: org.hibernate.dialect.H2Dialect
-    properties.hibernate:
-      enable_lazy_load_no_trans: true
+    properties:
+      generate-ddl: true
+      show-sql: true
+      hibernate:
+        ddl-auto: create-drop
+        dialect: org.hibernate.dialect.MySQLDialect
+  flyway:
+    enabled: false
+    locations: "classpath:db/migration"
+    baseline-on-migrate: true
+    ignore-missing-migrations: true
+    out-of-order: true
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 200MB

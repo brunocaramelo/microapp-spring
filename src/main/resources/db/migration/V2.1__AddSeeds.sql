@@ -1,129 +1,130 @@
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "1", "Toyota Park", "Bridgeview", "IL", NULL);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "2", "Columbus Crew Stadium", "Columbus", "OH", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "1", "Toyota Park", "Bridgeview", "IL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "3", "RFK Stadium", "Washington", "DC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "2", "Columbus Crew Stadium", "Columbus", "OH",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "4", "CommunityAmerica Ballpark", "Kansas City", "KS", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "3", "RFK Stadium", "Washington", "DC",0);
+
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "4", "CommunityAmerica Ballpark", "Kansas City", "KS",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "5", "Gillette Stadium", "Foxborough", "MA", "68756");
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "6", "New York Giants Stadium", "East Rutherford", "NJ", "80242");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "7", "BMO Field", "Toronto", "ON", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "7", "BMO Field", "Toronto", "ON",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "8", "The Home Depot Center", "Carson", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "8", "The Home Depot Center", "Carson", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "9", "Dick's Sporting Goods Park", "Commerce City", "CO", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "9", "Dick's Sporting Goods Park", "Commerce City", "CO",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "10", "Pizza Hut Park", "Frisco", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "10", "Pizza Hut Park", "Frisco", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "11", "Robertson Stadium", "Houston", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "11", "Robertson Stadium", "Houston", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "13", "Rice-Eccles Stadium", "Salt Lake City", "UT", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "13", "Rice-Eccles Stadium", "Salt Lake City", "UT",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "14", "Buck Shaw Stadium", "Santa Clara", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "14", "Buck Shaw Stadium", "Santa Clara", "CA",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "15", "McAfee Coliseum", "Oakland", "CA", "63026");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "16", "TD Banknorth Garden", "Boston", "MA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "16", "TD Banknorth Garden", "Boston", "MA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "17", "Izod Center", "East Rutherford", "NJ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "17", "Izod Center", "East Rutherford", "NJ",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "18", "Madison Square Garden", "New York City", "NY", "20000");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "19", "Wachovia Center", "Philadelphia", "PA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "19", "Wachovia Center", "Philadelphia", "PA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "20", "Air Canada Centre", "Toronto", "ON", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "20", "Air Canada Centre", "Toronto", "ON",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "21", "United Center", "Chicago", "IL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "21", "United Center", "Chicago", "IL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "22", "Quicken Loans Arena", "Cleveland", "OH", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "22", "Quicken Loans Arena", "Cleveland", "OH",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "23", "The Palace of Auburn Hills", "Auburn Hills", "MI", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "23", "The Palace of Auburn Hills", "Auburn Hills", "MI",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "24", "Conseco Fieldhouse", "Indianapolis", "IN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "24", "Conseco Fieldhouse", "Indianapolis", "IN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "25", "Bradley Center", "Milwaukee", "WI", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "25", "Bradley Center", "Milwaukee", "WI",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "26", "Philips Arena", "Atlanta", "GA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "26", "Philips Arena", "Atlanta", "GA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "27", "Time Warner Cable Arena", "Charlotte", "NC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "27", "Time Warner Cable Arena", "Charlotte", "NC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "28", "American Airlines Arena", "Miami", "FL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "28", "American Airlines Arena", "Miami", "FL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "29", "Amway Arena", "Orlando", "FL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "29", "Amway Arena", "Orlando", "FL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "30", "Verizon Center", "Washington", "DC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "30", "Verizon Center", "Washington", "DC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "31", "Pepsi Center", "Denver", "CO", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "31", "Pepsi Center", "Denver", "CO",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "32", "Target Center", "Minneapolis", "MN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "32", "Target Center", "Minneapolis", "MN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "33", "Ford Center", "Oklahoma City", "OK", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "33", "Ford Center", "Oklahoma City", "OK",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "34", "Rose Garden", "Portland", "OR", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "34", "Rose Garden", "Portland", "OR",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "35", "EnergySolutions Arena", "Salt Lake City", "UT", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "35", "EnergySolutions Arena", "Salt Lake City", "UT",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "36", "Oracle Arena", "Oakland", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "36", "Oracle Arena", "Oakland", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "37", "Staples Center", "Los Angeles", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "37", "Staples Center", "Los Angeles", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "38", "US Airways Center", "Phoenix", "AZ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "38", "US Airways Center", "Phoenix", "AZ",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "39", "ARCO Arena", "Sacramento", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "39", "ARCO Arena", "Sacramento", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "40", "American Airlines Center", "Dallas", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "40", "American Airlines Center", "Dallas", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "41", "Toyota Center", "Houston", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "41", "Toyota Center", "Houston", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "42", "FedExForum", "Memphis", "TN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "42", "FedExForum", "Memphis", "TN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "43", "New Orleans Arena", "New Orleans", "LA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "43", "New Orleans Arena", "New Orleans", "LA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "44", "AT&T Center", "San Antonio", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "44", "AT&T Center", "San Antonio", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "45", "Prudential Center", "Newark", "NJ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "45", "Prudential Center", "Newark", "NJ",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "46", "Nassau Veterans Memorial Coliseum", "Uniondale", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "46", "Nassau Veterans Memorial Coliseum", "Uniondale", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "47", "Mellon Arena", "Pittsburgh", "PA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "47", "Mellon Arena", "Pittsburgh", "PA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "48", "HSBC Arena", "Buffalo", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "48", "HSBC Arena", "Buffalo", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "49", "Bell Centre", "Montreal", "QC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "49", "Bell Centre", "Montreal", "QC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "50", "Scotiabank Place", "Ottawa", "ON", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "50", "Scotiabank Place", "Ottawa", "ON",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "52", "RBC Center", "Raleigh", "NC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "52", "RBC Center", "Raleigh", "NC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "53", "BankAtlantic Center", "Sunrise", "FL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "53", "BankAtlantic Center", "Sunrise", "FL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "54", "St. Pete Times Forum", "Tampa", "FL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "54", "St. Pete Times Forum", "Tampa", "FL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "55", "Nationwide Arena", "Columbus", "OH", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "55", "Nationwide Arena", "Columbus", "OH",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "56", "Joe Louis Arena", "Detroit", "MI", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "56", "Joe Louis Arena", "Detroit", "MI",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "57", "Sommet Center", "Nashville", "TN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "57", "Sommet Center", "Nashville", "TN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "58", "Scottrade Center", "St. Louis", 1, NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "58", "Scottrade Center", "St. Louis", 1,0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "59", "Pengrowth Saddledome", "Calgary", "AB", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "59", "Pengrowth Saddledome", "Calgary", "AB",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "60", "Rexall Place", "Edmonton", "AB", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "60", "Rexall Place", "Edmonton", "AB",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "61", "Xcel Energy Center", "St. Paul", "MN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "61", "Xcel Energy Center", "St. Paul", "MN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "62", "General Motors Place", "Vancouver", "BC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "62", "General Motors Place", "Vancouver", "BC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "63", "Honda Center", "Anaheim", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "63", "Honda Center", "Anaheim", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "65", "Jobing.com Arena", "Glendale", "AZ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "65", "Jobing.com Arena", "Glendale", "AZ",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "66", "HP Pavilion at San Jose", "San Jose", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "66", "HP Pavilion at San Jose", "San Jose", "CA",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "67", "Ralph Wilson Stadium", "Orchard Park", "NY", "73967");
 
@@ -175,7 +176,7 @@ INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( 
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "91", "Raymond James Stadium", "Tampa", "FL", "65647");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "92", "University of Phoenix Stadium", "Glendale", "AZ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "92", "University of Phoenix Stadium", "Glendale", "AZ",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "93", "Edward Jones Dome", "St. Louis", 1, "66965");
 
@@ -207,7 +208,7 @@ INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( 
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "107", "Turner Field", "Atlanta", "GA", "50091");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "108", "Shea Stadium", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "108", "Shea Stadium", "New York City", "NY",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "109", "Citizens Bank Park", "Philadelphia", "PA", "43647");
 
@@ -225,7 +226,7 @@ INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( 
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "116", "Busch Stadium", "St. Louis", 1, "49660");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "117", "Chase Field", "Phoenix", "AZ", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "117", "Chase Field", "Phoenix", "AZ",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "118", "Coors Field", "Denver", "CO", "50445");
 
@@ -235,173 +236,173 @@ INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( 
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "121", "AT&T Park", "San Francisco", "CA", "41503");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "122", "Saratoga Springs Performing Arts Center", "Saratoga Springs", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "122", "Saratoga Springs Performing Arts Center", "Saratoga Springs", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "123", "Fox Theatre", "Redwood City", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "123", "Fox Theatre", "Redwood City", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "124", "Mountain Winery", "Saratoga", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "124", "Mountain Winery", "Saratoga", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "125", "Villa Montalvo", "Saratoga", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "125", "Villa Montalvo", "Saratoga", "CA",0);
 
 INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "126", "Shoreline Amphitheatre", "Mountain View", "CA", "22000");
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "127", "Superpages.com Center", "Dallas", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "127", "Superpages.com Center", "Dallas", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "128", "E.J. Nutter Center", "Dayton", "OH", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "128", "E.J. Nutter Center", "Dayton", "OH",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "129", "Hersheypark Stadium", "Hershey", "PA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "129", "Hersheypark Stadium", "Hershey", "PA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "130", "North Charleston Coliseum", "Charleston", "SC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "130", "North Charleston Coliseum", "Charleston", "SC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "200", "Al Hirschfeld Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "200", "Al Hirschfeld Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "201", "Ambassador Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "201", "Ambassador Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "202", "American Airlines Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "202", "American Airlines Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "203", "August Wilson Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "203", "August Wilson Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "204", "Brooks Atkinson Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "204", "Brooks Atkinson Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "205", "Ethel Barrymore Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "205", "Ethel Barrymore Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "206", "Belasco Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "206", "Belasco Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "207", "Bernard B. Jacobs Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "207", "Bernard B. Jacobs Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "208", "Biltmore Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "208", "Biltmore Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "209", "Booth Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "209", "Booth Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "210", "Broadhurst Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "210", "Broadhurst Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "211", "The Broadway Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "211", "The Broadway Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "212", "Circle in the Square Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "212", "Circle in the Square Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "213", "Cort Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "213", "Cort Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "214", "George Gershwin Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "214", "George Gershwin Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "215", "John Golden Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "215", "John Golden Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "216", "Helen Hayes Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "216", "Helen Hayes Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "217", "Hilton Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "217", "Hilton Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "218", "Imperial Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "218", "Imperial Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "219", "Longacre Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "219", "Longacre Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "220", "Lunt-Fontanne Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "220", "Lunt-Fontanne Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "221", "Lyceum Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "221", "Lyceum Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "222", "Majestic Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "222", "Majestic Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "223", "Marquis Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "223", "Marquis Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "224", "Minskoff Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "224", "Minskoff Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "225", "Music Box Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "225", "Music Box Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "226", "Nederlander Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "226", "Nederlander Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "227", "New Amsterdam Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "227", "New Amsterdam Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "228", "Eugene O'Neill Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "228", "Eugene O'Neill Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "229", "Palace Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "229", "Palace Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "230", "Richard Rodgers Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "230", "Richard Rodgers Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "231", "Gerald Schoenfeld Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "231", "Gerald Schoenfeld Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "232", "Shubert Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "232", "Shubert Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "233", "Neil Simon Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "233", "Neil Simon Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "234", "St. James Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "234", "St. James Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "235", "Studio 54", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "235", "Studio 54", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "236", "Vivian Beaumont Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "236", "Vivian Beaumont Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "237", "Walter Kerr Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "237", "Walter Kerr Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "238", "Winter Garden Theatre", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "238", "Winter Garden Theatre", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "239", "Greek Theatre", "Los Angeles", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "239", "Greek Theatre", "Los Angeles", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "240", "San Jose Repertory Theatre", "San Jose", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "240", "San Jose Repertory Theatre", "San Jose", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "241", "Curran Theatre", "San Francisco", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "241", "Curran Theatre", "San Francisco", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "242", "Geffen Playhouse", "Los Angeles", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "242", "Geffen Playhouse", "Los Angeles", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "243", "Pasadena Playhouse", "Pasadena", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "243", "Pasadena Playhouse", "Pasadena", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "244", "Royce Hall", "Los Angeles", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "244", "Royce Hall", "Los Angeles", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "245", "The Guthrie Theater", "Minneapolis", "MN", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "245", "The Guthrie Theater", "Minneapolis", "MN",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "246", "Carnegie Hall", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "246", "Carnegie Hall", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "247", "Lincoln Center for the Performing Arts", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "247", "Lincoln Center for the Performing Arts", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "248", "Charles Playhouse", "Boston", "MA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "248", "Charles Playhouse", "Boston", "MA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "249", "Paramount Theatre", "Seattle", "WA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "249", "Paramount Theatre", "Seattle", "WA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "250", "Sahara Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "250", "Sahara Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "251", "Paris Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "251", "Paris Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "252", "Hilton Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "252", "Hilton Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "253", "Mirage Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "253", "Mirage Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "254", "Caesars Palace", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "254", "Caesars Palace", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "255", "Venetian Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "255", "Venetian Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "256", "Paris MGM Grand", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "256", "Paris MGM Grand", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "257", "Luxor Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "257", "Luxor Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "258", "Tropicana Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "258", "Tropicana Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "259", "Harrahs Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "259", "Harrahs Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "260", "Ballys Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "260", "Ballys Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "261", "Wynn Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "261", "Wynn Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "262", "Mandalay Bay Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "262", "Mandalay Bay Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "263", "Bellagio Hotel", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "263", "Bellagio Hotel", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "264", "New York New York", "Las Vegas", "NV", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "264", "New York New York", "Las Vegas", "NV",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "300", "Kennedy Center Opera House", "Washington", "DC", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "300", "Kennedy Center Opera House", "Washington", "DC",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "301", "Ellie Caulkins Opera House", "Denver", "CO", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "301", "Ellie Caulkins Opera House", "Denver", "CO",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "302", "Detroit Opera House", "Detroit", "MI", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "302", "Detroit Opera House", "Detroit", "MI",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "303", "Grand 1894 Opera House", "Galveston", "TX", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "303", "Grand 1894 Opera House", "Galveston", "TX",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "304", "War Memorial Opera House", "San Francisco", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "304", "War Memorial Opera House", "San Francisco", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "305", "Lyric Opera House", "Chicago", "IL", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "305", "Lyric Opera House", "Chicago", "IL",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "306", "Lyric Opera House", "Baltimore", "MD", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "306", "Lyric Opera House", "Baltimore", "MD",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "307", "San Francisco Opera", "San Francisco", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "307", "San Francisco Opera", "San Francisco", "CA",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "308", "Metropolitan Opera", "New York City", "NY", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "308", "Metropolitan Opera", "New York City", "NY",0);
 
-INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "309", "Los Angeles Opera", "Los Angeles", "CA", NULL);
+INSERT INTO venues (venue_id ,venue_name ,city,state,seating_capacity) VALUES ( "309", "Los Angeles Opera", "Los Angeles", "CA",0);
 
 
 
