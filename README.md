@@ -47,8 +47,8 @@ The application is separated by the following containers
  
 ## Unit Tests
 
-    ![Test Coverage](images/coverage.png)
-    <img src="images/coverage.png" width="128"/>
+![Test Coverage](images/coverage.png)
+
 
 ## Post Installation
 
