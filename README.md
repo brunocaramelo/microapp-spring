@@ -46,6 +46,7 @@ The application is separated by the following containers
    
  
 ## Unit Tests
+
     ![Test Coverage](images/coverage.png)
 
 ## Post Installation
@@ -64,7 +65,7 @@ After installing the access address is:
 - http://localhost:8080/api/listings/?page=0&pageSize=10
 - http://localhost:8080/api/listings/2
 
-- http://localhost:8080/api/promotions/available?contextDate=2008-01-25&categoryId=9&city=Commerce City
+- http://localhost:8080/api/promotions/available?contextDate=2008-01-25&categoryId=9
 
 - http://localhost:8080/api/sales/?page=0&pageSize=10
 - http://localhost:8080/api/sales/2
@@ -76,6 +77,6 @@ After installing the access address is:
 - http://localhost:8080/api/venues/2
 
 
-- Pagination parameter are optional and have a default values
+- Pagination parameters are optional and have a default values
 
 
