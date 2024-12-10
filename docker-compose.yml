@@ -2,26 +2,29 @@ version: '3.8'
 
 services:
   mysql-db:
-    image: mysql:8.0
-    container_name: mysql-container
+    image: mariadb:latest
+    container_name: mysql-container-microapp
     env_file:
       - docker/envs/database.env
     ports:
       - "3306:3306"
     volumes:
-      - mysql-data:/var/lib/mysql
-
+      - mariadb-data:/var/lib/mysql
+    command:
+      --default-authentication-plugin=mysql_native_password
   spring-app:
+    container_name: app-container-microapp
     build:
       context: .
       dockerfile: ./docker/dockerfiles/app.Dockerfile
-    container_name: spring-container
     ports:
       - "8080:8080"
     depends_on:
       - mysql-db
+    links:
+      - mysql-db
     env_file:
       - docker/envs/app.env
-
+    restart: on-failure
 volumes:
-  mysql-data:
+  mariadb-data:

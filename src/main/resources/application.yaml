@@ -5,11 +5,11 @@ spring:
   application:
     name: microapp
   datasource:
-    url: ${SECRET_DATABASE_URL:jdbc:mysql://localhost}:${SECRET_DB_PORT:3306}/${SECRET_DB_NAME:microapp}?useTimezone=true&serverTimezone=UTC&useSSL=false
+    url: ${SECRET_DATABASE_URL:jdbc:mysql://mysql-db}:${SECRET_DB_PORT:3306}/${SECRET_DB_NAME:microapp}?useTimezone=true&serverTimezone=UTC&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     database-platform: org.hibernate.dialect.MySQLDialect
-    username: ${SECRET_DB_USERNAME:root}
-    password: ${SECRET_DB_PASSWORD:root}
+    username: ${SECRET_DB_USERNAME:userdatabase}
+    password: ${SECRET_DB_PASSWORD:userpassword}
   jpa:
     properties:
       generate-ddl: true
@@ -34,11 +34,11 @@ spring:
     activate:
       on-profile: test
   datasource:
-    url: ${SECRET_TEST_DATABASE_URL:jdbc:mysql://localhost}:${SECRET_TEST_DB_PORT:3306}/${SECRET_TEST_DB_NAME:microapp}?useTimezone=true&serverTimezone=UTC&useSSL=false
+    url: ${SECRET_TEST_DATABASE_URL:jdbc:mysql://mysql-db}:${SECRET_TEST_DB_PORT:3306}/${SECRET_TEST_DB_NAME:microapp}?useTimezone=true&serverTimezone=UTC&useSSL=false
     driver-class-name: com.mysql.cj.jdbc.Driver
     database-platform: org.hibernate.dialect.MySQLDialect
-    username: ${SECRET_TEST_DB_USERNAME:root}
-    password: ${SECRET_TEST_DB_PASSWORD:root}
+    username: ${SECRET_TEST_DB_USERNAME:userdatabase}
+    password: ${SECRET_TEST_DB_PASSWORD:userpassword}
   jpa:
     properties:
       generate-ddl: true
