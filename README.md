@@ -65,6 +65,28 @@ to configure follow the image below :
 
 Note: It is not necessary to configure the env vars because the Mysql container is the default in application.yml.
 
+## Configuring environment variables:
+
+If you need to change the environment variables, set the following keys inside field:
+Environment variables:
+
+Application :
+
+SECRET_DATABASE_URL=jdbc:mysql://localhost
+SECRET_DB_PORT=3306
+SECRET_DB_NAME=example
+SECRET_DB_USERNAME=example
+SECRET_DB_PASSWORD=example
+
+
+Gradle Tests:
+
+SECRET_TEST_DATABASE_URL=jdbc:mysql://localhost
+SECRET_TEST_DB_PORT=3306
+SECRET_TEST_DB_NAME=example1
+SECRET_TEST_DB_USERNAME=example1
+SECRET_TEST_DB_PASSWORD=example1
+
     
 ## Run Unit Tests
 
