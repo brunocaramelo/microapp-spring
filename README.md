@@ -43,9 +43,30 @@ The application is separated by the following containers
             - copy to final container
             - migrations runings
     1.1 - docker-compose up -d;
-   
- 
-## Unit Tests
+
+
+## Using Intelij
+
+To use the project in Intelij run the Mysql instance
+
+ -  docker-compose up mysql-db
+
+#### Configure test battery
+to configure follow the image below :
+
+![Test Coverage](images/config-tests.png)
+
+Note: It is not necessary to configure the env vars because the Mysql container is the default in application.yml.
+
+#### Configure the application to run in the IDE
+to configure follow the image below :
+
+![Test Coverage](images/config-app.png)
+
+Note: It is not necessary to configure the env vars because the Mysql container is the default in application.yml.
+
+    
+## Run Unit Tests
 
 ![Test Coverage](images/coverage.png)
 

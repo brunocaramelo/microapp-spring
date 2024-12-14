@@ -25,6 +25,6 @@ services:
       - mysql-db
     env_file:
       - docker/envs/app.env
-    restart: on-failure
+    # restart: on-failure
 volumes:
   mariadb-data:
