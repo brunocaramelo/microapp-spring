@@ -91,13 +91,13 @@ Environment variables:
 ## Run Unit Tests
     On run gradle 
         - :test
-        
+
 ![Test Coverage](images/coverage.png)
 
 
 ## Post Installation
 
-After installing the access address is:
+After installation, you can access the addresses below:
 
 - http://localhost:8080/api/categories/?page=0&pageSize=10
 - http://localhost:8080/api/categories/2
