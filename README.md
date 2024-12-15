@@ -9,8 +9,8 @@ This application has the following specifications:
 | --- | --- |
 | Docker | 26.1.3 |
 | Docker Compose | 1.29.2 |
-| Spring | 3.4.0 |
-| Mariabd | Latest |
+| Spring Framework | 3.4.0 |
+| Mariabd | 1:11.6.2 |
 
 
 The application is separated by the following containers
