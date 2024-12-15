@@ -57,7 +57,7 @@ To use the project in Intelij run the Project Mysql Docker instance
 #### Configure test battery
 to configure follow the image below :
 
-![Test Coverage](images/config-tests.png)
+![Test Coverage](images/config-tests.png)   
 
 Note: It is not necessary to configure the env vars because the Mysql container is the default in application.yml.
 
@@ -92,12 +92,12 @@ Environment variables:
 
     
 ## Run Unit Tests
-    On run gradle 
+On run gradle 
         - :test
 
 ![Test Coverage](images/coverage.png)
 
-T                       otaling 32 tests
+Totaling 32 tests
 
 ## Post Installation
 
