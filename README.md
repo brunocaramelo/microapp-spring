@@ -40,7 +40,7 @@ The application is separated by the following containers
 
     1.0 - Run first time the docker-compose up
         - docker-compose up; 
-        - to proccess
+        - Motivations
             - gradle building project jar
             - copy to final container
             - migrations runings
