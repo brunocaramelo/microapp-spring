@@ -30,14 +30,16 @@ The application is separated by the following containers
 
 1- Download repository 
     
-2 - Check if doors 80 and 3306 are occupied.
+2 - Check if doors 8080 and 3306 are occupied.
 
 3 - Enter the base directory of the application and execute the commands below:
     
-    0 - cp docker/envs/database.env.example docker/envs/database.env
+    0 - Copy env files to docker-compose
+        - cp docker/envs/database.env.example docker/envs/database.env
         - cp docker/envs/app.env.example docker/envs/app.env
 
-    1.0 - docker-compose up; 
+    1.0 - Run first docker-compose up , time
+        - docker-compose up; 
         - to proccess
             - gradle building project jar
             - copy to final container
