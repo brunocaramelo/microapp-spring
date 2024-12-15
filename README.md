@@ -94,6 +94,7 @@ Environment variables:
 
 ![Test Coverage](images/coverage.png)
 
+T                       otaling 32 tests
 
 ## Post Installation
 
