@@ -44,13 +44,13 @@ The application is separated by the following containers
             - gradle building project jar
             - copy to final container
             - migrations runings
-    1.1 - Run backround command docker-compose up with -d 
+    1.1 - Run backround command docker-compose up with parameter -d 
         - docker-compose up -d;
 
 
 ## Using Intelij
 
-To use the project in Intelij run the Mysql instance
+To use the project in Intelij run the Project Mysql Docker instance
 
  -  docker-compose up mysql-db
 
