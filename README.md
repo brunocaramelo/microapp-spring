@@ -44,7 +44,8 @@ The application is separated by the following containers
             - gradle building project jar
             - copy to final container
             - migrations runings
-    1.1 - docker-compose up -d;
+    1.1 - Run backround command docker-compose up with -d 
+        - docker-compose up -d;
 
 
 ## Using Intelij
