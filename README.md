@@ -38,7 +38,7 @@ The application is separated by the following containers
         - cp docker/envs/database.env.example docker/envs/database.env
         - cp docker/envs/app.env.example docker/envs/app.env
 
-    1.0 - Run first docker-compose up , time
+    1.0 - Run first time the docker-compose up
         - docker-compose up; 
         - to proccess
             - gradle building project jar
