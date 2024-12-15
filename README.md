@@ -7,7 +7,7 @@ This application has the following specifications:
 
 | Tool | Version |
 | --- | --- |
-| Docker | 24.0.7 |
+| Docker | 26.1.3 |
 | Docker Compose | 1.29.2 |
 | Spring | 3.4.0 |
 | Mariabd | Latest |
