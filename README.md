@@ -123,6 +123,5 @@ After installation, you can access the addresses below:
 - http://localhost:8080/api/venues/2
 
 
-- Pagination parameters are optional and have a default values
-
+Pagination parameters are optional and have a default values, page = 0 and pageSize = 50
 
